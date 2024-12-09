@@ -1,0 +1,32 @@
+{
+  "name": "@lyndon/best-practices",
+  "version": "1.0.0",
+  "description": "some best practices in any parttens",
+  "type": "module",
+  "author": {
+    "name": "lyndon.",
+    "email": "wuxianzhi052@gmail.com"
+  },
+  "keywords": [
+    "best"
+  ],
+  "scripts": {
+    "preinstall": "only-allow pnpm"
+  },
+  "license": "MIT",
+  "_comment_engines": "限定项目的 node 版本",
+  "engines": {
+    "node": "18.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyndon-graffiti/best-practices.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lyndon-graffiti/best-practices/issues"
+  },
+  "homepage": "https://github.com/lyndon-graffiti/best-practices#readme",
+  "devDependencies": {
+    "only-allow": "^1.2.1"
+  }
+}
