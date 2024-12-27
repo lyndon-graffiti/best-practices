@@ -1,7 +1,7 @@
 {
   "name": "@lyndon/best-practices",
   "version": "1.0.0",
-  "description": "some best practices in any parttens",
+  "description": "some best practices in development",
   "type": "module",
   "author": {
     "name": "lyndon.",
@@ -16,7 +16,7 @@
   "license": "MIT",
   "_comment_engines": "限定项目的 node 版本",
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,8 @@
   "homepage": "https://github.com/lyndon-graffiti/best-practices#readme",
   "devDependencies": {
     "only-allow": "^1.2.1"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
   }
 }
